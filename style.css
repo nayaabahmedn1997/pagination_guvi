@@ -1,0 +1,30 @@
+ /* Add your CSS styles here */
+ body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.pagination li {
+    padding: 5px 15px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: white;
+    color: #9fd3f8;
+}
+
+.pagination li.active {
+    background-color: rgb(53, 121, 183);
+    color: white;
+}
+
+.pagination li:hover {
+    background-color: #ddd;
+    color: black;
+}
