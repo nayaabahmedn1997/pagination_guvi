@@ -100,7 +100,6 @@ function paginationButton(pageNumber, data, isSpecialButton, specialButtonData)
     button.addEventListener('click',()=>{
         previousPage = currentPage;
         currentPage = pageNumber;
-        console.log(previousPage, currentPage)
         if(isSpecialButton)
         {
             displayData(data, dataContainer, rowsPerPage, specialButtonData.pageNumber);
